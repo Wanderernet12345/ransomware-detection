@@ -767,6 +767,32 @@ same PID in a short window is conclusive.
 
 ---
 
+## Team & Contributions
+
+### My Contributions
+
+I contributed to the first three detection layers of RDRS:
+
+- **Layer 1 — Honeytoken Deception**
+  - Hidden decoy-file detection
+  - Process attribution
+  - Entropy analysis
+  - Risk scoring
+
+- **Layer 2 — ETW File Monitoring**
+  - ETW-based monitoring of file-system activity
+  - Detection of suspicious file-operation patterns
+
+- **Layer 3 — Cryptographic API Monitoring**
+  - Cryptographic API monitoring
+  - Detection of suspicious encryption-related activity
+  - Signal generation for downstream correlation
+
+RDRS was developed collaboratively as a Project-Based Learning (PBL)
+project.
+
+---
+
 ## Academic Context
 
 This project was built as part of a **Problem-Based Learning (PBL)** assignment in applied
